@@ -33,6 +33,8 @@ In this workshop, we will answer the question: How do specific leaf area, water 
 
 ```{r}
 #| label: packages and data
+#| message: false
+#| warning: false
 
 # read in your packages here
 library(tidyverse) # general use
@@ -222,6 +224,8 @@ Add a title describing the differences in (mean or median) plant mass between sp
 Bonus: order the x-axis by decreasing mean plant mass.
 
 ```{r}
+#| fig-height: 6
+#| fig-width: 8
 
 # base layer: ggplot
 ggplot(
